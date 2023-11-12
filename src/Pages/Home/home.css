@@ -1,0 +1,113 @@
+.home {
+  background: var(--background-color);
+}
+.home-input-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25em;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-input {
+  background: var(--input-color);
+  box-shadow: 0px 2px 4px var(--box-shadow);
+  border: none;
+  padding: 1em 1.5em;
+  min-width: 50vw;
+  border-radius: 3em;
+  color: var(--font-color);
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.primary-cta {
+  font-size: 1.5rem;
+  border-radius: 0.5em;
+  padding: 1em 1.5em;
+  min-width: 15em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px var(--box-shadow);
+}
+.socials-btn {
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2.5rem;
+  box-shadow: 0px 2px 8px var(--box-shadow);
+}
+.generated-image-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  align-items: flex-start;
+}
+.generated-image {
+  width: 16vw;
+  object-fit: cover;
+}
+.output-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0em;
+}
+.home-title {
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 0em 1em;
+}
+.home-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 0em 2em 0em;
+}
+.share-options-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.socials-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+@media screen and (max-width: 900px) {
+  .home-input {
+    min-width: 75vw;
+  }
+  .home-title {
+    font-size: 2.5rem;
+  }
+  .generated-image {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-flex {
+    padding: 1em 0em 1em 0em;
+  }
+  .home-title {
+    font-size: 2rem;
+  }
+  .generated-image {
+    width: 85vw;
+  }
+  .home-input {
+    min-width: 75vw;
+  }
+}

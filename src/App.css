@@ -1,0 +1,11 @@
+/* Variables */
+:root {
+  --background-color: #1d1d1d;
+  --input-color: #323232;
+  --font-color: #ffffff;
+  --border-color: #545454;
+  --box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;700&display=swap");
